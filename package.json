@@ -1,0 +1,30 @@
+{
+  "name": "title-clipper",
+  "version": "0.0.3",
+  "description": "A Chrome extension that copies the page title and URL.",
+  "packageManager": "pnpm@10.2.0",
+  "scripts": {
+    "test": "node --test .",
+    "test:coverage": "node --test --experimental-test-coverage .",
+    "format": "prettier --write .",
+    "format:check": "prettier --check .",
+    "lint": "eslint .",
+    "lint:fix": "eslint --fix .",
+    "package": "rm -f package.zip && zip -r package.zip manifest.json src/*.js icons/128.png"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mikan/title-clipper.git"
+  },
+  "author": "mikan",
+  "license": "ISC",
+  "prettier": {
+    "printWidth": 100,
+    "trailingComma": "all"
+  },
+  "devDependencies": {
+    "eslint": "^8.50.0",
+    "eslint-config-prettier": "^9.0.0",
+    "prettier": "^3.0.3"
+  }
+}

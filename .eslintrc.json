@@ -1,0 +1,13 @@
+{
+  "parserOptions": {
+    "ecmaVersion": 2017
+  },
+  "env": {
+    "browser": true
+  },
+  "globals": {
+    "chrome": "readonly",
+    "module": "readonly"
+  },
+  "extends": ["eslint:recommended", "prettier"]
+}
