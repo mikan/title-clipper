@@ -2,7 +2,7 @@
 
 A Chrome extension that copies the page title and URL.
 
-![](icons/128.png)
+![](screenshot.png)
 
 ## How it works
 
