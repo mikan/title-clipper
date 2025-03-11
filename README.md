@@ -28,7 +28,7 @@ This extension is available at Chrome Web Store:
 
 > Copy page title and URL from context menu
 >
-> T.B.D.
+> https://chromewebstore.google.com/detail/copy-page-title-and-url-f/bggilabpedndenjgipknecphakliieba
 
 Please give us a ⭐️⭐️⭐️⭐️⭐️ review if you like it.
 
@@ -56,7 +56,7 @@ pnpm format
 Run eslint:
 
 ```
-pnpm eslint
+pnpm lint
 ```
 
 Packaging to package.zip:
